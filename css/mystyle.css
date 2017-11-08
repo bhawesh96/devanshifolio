@@ -109,7 +109,7 @@ div.indivCompetition img{
     margin-bottom: 10px;
 }
 
-div.indivCompetition img:hover + p{
+div.indivCompetition p{
     color: white;
     font-weight: 600;    
 }
