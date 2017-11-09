@@ -161,3 +161,11 @@ img:hover {
 body {
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 }
+
+.carousel-indicators li {
+    border:1px solid #03012C;
+}
+
+.carousel-indicators .active{
+    background-color: #03012C;
+}
