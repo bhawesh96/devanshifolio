@@ -169,3 +169,14 @@ body {
 .carousel-indicators .active{
     background-color: #03012C;
 }
+
+@media(max-width: 480px) {
+
+    div.indivCompetition img{
+        width: 330px;
+    /*max-width: 330px;*/
+    }
+    button.cv {
+        margin-left: 0%;
+    }
+}
