@@ -56,11 +56,12 @@
     top: 15px;
     right: 35px;
     margin-bottom: 30px;
-    color: #f1f1f1;
-    font-size: 30px;
+    color: white;
+    font-size: 60px;
     font-weight: bold;
     transition: 0.3s;
     z-index: 1000;
+    opacity: 1;
 }
 
 .close:hover,
