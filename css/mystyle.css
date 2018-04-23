@@ -133,6 +133,11 @@ button.close {
     padding: 20px;
 }
 
+.skills .cv {
+    width: 70%;
+}
+
+
 button.cv {
    background-color: #03012C;
    padding: 10px 40px 10px 40px;
@@ -179,5 +184,8 @@ body {
     }
     button.cv {
         margin-left: 0%;
+    }
+    .skills .cv {
+        width: 100%;
     }
 }
