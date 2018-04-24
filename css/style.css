@@ -6,6 +6,13 @@
 	src: url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), url('../fonts/codropsicons/codropsicons.woff') format('woff'), url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 }
 
+@font-face {
+	font-family: 'HelveticaNeue-Light';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/HelveticaNeue-Light.otf');
+}
+
 *,
 *:after,
 *:before {
@@ -24,7 +31,7 @@
 }
 
 body {
-	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'HelveticaNeue-Light', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #5d5c56;
 	background: #fff;
 	-webkit-font-smoothing: antialiased;
@@ -98,7 +105,7 @@ a:focus {
 }
 
 .header-title__main {
-	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-family: 'HelveticaNeue-Light', 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	font-size: 3em;
 	font-weight: 400;
 	line-height: 1;
@@ -106,7 +113,7 @@ a:focus {
 }
 
 .header-title__part {
-	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-family: 'HelveticaNeue-Light', 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	font-size: 0.85em;
 	font-weight: 400;
 	display: block;
@@ -133,7 +140,7 @@ a:focus {
 }
 
 .intro {
-	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-family: 'HelveticaNeue-Light', 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	font-size: 2em;
 	position: relative;
 	z-index: 1000;
@@ -326,7 +333,7 @@ a:focus {
 }
 
 .title-down {
-	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-family: 'HelveticaNeue-Light', 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	font-size: 1.35em;
 	font-weight: 400;
 	line-height: 0.9;
@@ -366,7 +373,7 @@ a:focus {
 }
 
 .text blockquote {
-	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-family: 'HelveticaNeue-Light', 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	font-size: 2em;
 	line-height: 1.5;
 	position: relative;
