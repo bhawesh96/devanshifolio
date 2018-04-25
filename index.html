@@ -537,12 +537,12 @@
 	  	<img class="modal-content" id="img01">
 	  <div id="caption"></div>
 
-	  <!-- <a class="left carousel-control" onclick="changeLeft()" >
+	  <a class="left carousel-control" onclick="changeLeft()" >
 	    <span class="glyphicon glyphicon-chevron-left"></span>
 	  </a>
 	  <a class="right carousel-control" onclick="changeRight()" >
 	    <span class="glyphicon glyphicon-chevron-right"></span>
-	  </a> -->
+	  </a>
 
 	</div>
 	</div>
@@ -590,6 +590,9 @@
 			</div>
 		</section>
 	<script>
+
+	var curr_src;
+
 	w3.includeHTML();
 	// Get the modal
 	$(".js-image").click(function() {
@@ -623,6 +626,12 @@
 		span.onclick = function() { 
 		    modal.style.display = "none";
 		}
+
+		curr_src = imgSrc;
+	}
+
+	function changeLeft() {
+		console.log(curr_src);
 	}
 
 	// $('.modal-content').click(function() {

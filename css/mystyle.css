@@ -128,13 +128,19 @@ button.close {
 .skills {
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
     text-align: center;
-    color: #fff;
-    background: #03012C;
+    background: #fff;
     padding: 20px;
+    display: inline-block;
+}
+
+.skills h2 {
+    color: #5f646c;
+    text-align: center;
 }
 
 .skills .cv {
     width: 70%;
+    border: 2px solid #5f646c;
 }
 
 
